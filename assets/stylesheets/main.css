@@ -1,0 +1,120 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul,
+li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.custom-prop-container-fluid {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.company-logo {
+    display: flex !important;
+    align-items: center;
+}
+
+.fa-connectdevelop {
+    color: #339af0;
+}
+
+.com-leader-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.com-leader-list > div {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+    cursor: pointer;
+    transition-duration: 0s;
+    margin-left: 20px;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05, 1.05);
+    transition-duration: 0.5s;
+}
+
+.abt-com-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.abt-com-section > section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer {
+    justify-content: space-around !important;
+}
+
+@media(max-width:1020px) {
+    
+    .abt-com-section {
+        flex-direction: column;
+    }
+
+    .card-deck {
+        justify-content: center !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 250px !important;
+    }
+}
